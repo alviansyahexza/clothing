@@ -1,6 +1,6 @@
-import SignUpComponent from "../sign-up/sign-up.component";
-import SignInForm from "../sign-in/sign-in.component";
-import "../authentication/authentication.styles.scss";
+import SignUpComponent from "../../component/sign-up/sign-up.component";
+import SignInForm from "../../component/sign-in/sign-in.component";
+import "./authentication.styles.scss";
 
 const AuthenticationComponent = () => {
   return (

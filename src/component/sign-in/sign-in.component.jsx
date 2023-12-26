@@ -9,7 +9,7 @@ import {
 } from "../../utils/firebase/firebase.utils";
 import { getRedirectResult } from "firebase/auth";
 import { useEffect } from "react";
-import "../sign-in/sign-in.styles.scss";
+import "./sign-in.styles.scss";
 
 const SignInForm = () => {
   const signInWithEmail = (event) => {

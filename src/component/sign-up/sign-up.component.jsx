@@ -2,7 +2,7 @@ import { useState, useContext } from "react";
 import { createUserByEmailPassword } from "../../utils/firebase/firebase.utils";
 import { createUser } from "../../utils/firebase/firebase.utils";
 import FormInput from "../form-input/form-input.component";
-import "../sign-up/sign-up.styles.scss";
+import "./sign-up.styles.scss";
 import Button from "../button/button.component";
 
 const SignUpComponent = () => {

@@ -1,8 +1,8 @@
-import Home from "./component/router/home/home.component";
+import Home from "./router/home/home.component";
 import { Routes, Route } from "react-router-dom";
-import NavigationBar from "./component/router/navigation/navigation.component";
-import AuthenticationComponent from "../src/component/authentication/authentication.component";
-import ShopComponent from "./component/shop/shop.component";
+import NavigationBar from "./router/navigation/navigation.component";
+import AuthenticationComponent from "./router/authentication/authentication.component";
+import ShopComponent from "./router/shop/shop.component";
 
 function App() {
   return (
