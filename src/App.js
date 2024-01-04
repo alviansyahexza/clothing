@@ -10,7 +10,7 @@ function App() {
     <Routes>
       <Route path="/" element={<NavigationBar />}>
         <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<ShopComponent />} />
+        <Route path="/shop/*" element={<ShopComponent />} />
         <Route path="/auth" element={<AuthenticationComponent />} />
         <Route path="/cart-page" element={<CartPage />} />
       </Route>
